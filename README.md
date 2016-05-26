@@ -6,9 +6,9 @@ Intromedia demo for srcset+sizes
 
 ## Example usage
 ```js
-var intromedia-demo = require('intromedia-demo');
+var intromediaDemo = require('intromedia-demo');
 
-// Do whatever you want with 'intromedia-demo'!
+// Do whatever you want with 'intromediaDemo'!
 ```
     
 ## License
