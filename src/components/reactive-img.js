@@ -68,7 +68,7 @@ function bootstrapColumnsAsSizes(maxWidth, bootstrapColumns) {
 function imagesAsSrcSet(images) {
     return Object.keys(images)
         .map(url => [url, images[url]])
-        .map(([url, size]) => url + ' ' + size + 'w')
+        .map(([url, size]) => url + '?v=' + Math.random() + ' ' + size + 'w')
         .join(', ');
 }
 
