@@ -18,7 +18,9 @@ function fillInMissingColumnCounts(bootstrapColumns) {
 }
 
 function columnsToFactor(cols) {
-    return cols / 12;
+    return cols
+        .map(col => col / 12)
+        .reduce((acc, cur) => acc * cur);
 }
 
 function columnsToPercent(cols) {

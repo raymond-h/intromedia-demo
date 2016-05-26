@@ -11,8 +11,8 @@ export default class Container extends React.Component {
         };
 
         const bootstrapColumns = {
-            'lg': 2,
-            'xs': 12
+            'lg': [6, 6],
+            'xs': [12, 12]
         };
 
         return <div style={ {margin: 'auto', maxWidth: this.props.width} }>
